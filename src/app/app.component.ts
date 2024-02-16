@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { HdWalletMultiButtonComponent } from '@heavy-duty/wallet-adapter-material';
 
 @Component({
   standalone: true,
-  imports: [ RouterModule],
+  imports: [ RouterModule, HdWalletMultiButtonComponent],
   selector: 'bootcamp-root',
   templateUrl: './app.component.html'
 })
